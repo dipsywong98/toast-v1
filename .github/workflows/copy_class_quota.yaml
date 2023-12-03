@@ -13,13 +13,13 @@ permissions:
 jobs:
   copy:
     runs-on: ubuntu-latest
-    container:
-      image: ralfbs/httrack:latest
     strategy:
       matrix:
         include:
           - url: 'https://w5.ab.ust.hk/wcq/cgi-bin/2320/'
             dir: 'class_quota'
     steps:
+      - name: Install httrack
+        run: sudo apt-get install -y httrack
       - uses: actions/checkout@v2
       - run: sh copy.sh ${{matrix.url}} ${{matrix.dir}}

@@ -1,0 +1,25 @@
+name: copy
+
+on:
+  push:
+    branches: ["**"]
+    tags: ["**"]
+  pull_request:
+    branches: ["**"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - url: 'source1'
+            dir: 'out1'
+          - url: 'source2'
+            dir: 'out2'
+    steps:
+      - uses: actions/checkout@v2
+      - run: sh copy.sh ${{matrix.url}} ${{matrix.dir}}

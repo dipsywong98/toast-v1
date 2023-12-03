@@ -13,6 +13,8 @@ permissions:
 jobs:
   copy:
     runs-on: ubuntu-latest
+    container:
+      image: ralfbs/httrack:latest
     strategy:
       matrix:
         include:

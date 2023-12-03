@@ -3,7 +3,6 @@ url=$1 # "https://w5.ab.ust.hk/wcq/cgi-bin/2320/"
 path=$2 # "example"
 limit=1000000000000
 
-mkdir $path
 echo "copy $url to $path"
 
 if [ -d "$path" ]; then

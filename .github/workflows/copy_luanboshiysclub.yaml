@@ -1,10 +1,10 @@
-name: copy_class_quota
+name: copy_luanboshiysclub
 
 on:
   workflow_dispatch:
     inputs: {}
-  push:
-    branches: ["**"]
+  schedule:
+    - cron: 45 0-23/6 * * *
 
 permissions:
   contents: write
@@ -15,8 +15,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - url: 'https://w5.ab.ust.hk/wcq/cgi-bin/2320/'
-            dir: 'class_quota'
+          - url: 'http://luanboshiysclub.com/'
+            dir: 'luanboshiysclub'
     steps:
       - name: Install httrack
         run: sudo apt-get install -y httrack

@@ -1,11 +1,12 @@
 name: copy_class_quota
 
 on:
+  workflow_dispatch:
+    inputs: {}
   push:
     branches: ["**"]
-    tags: ["**"]
-  pull_request:
-    branches: ["**"]
+  schedule:
+    - cron: 10-59/15 * * * *
 
 permissions:
   contents: write

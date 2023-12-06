@@ -18,7 +18,7 @@ jobs:
           - url: 'http://luanboshiysclub.com/'
             dir: 'luanboshiysclub'
     steps:
-      - name: Install httrack
-        run: sudo apt-get install -y httrack
       - uses: actions/checkout@v2
+      - name: Install httrack etc.
+        run: sudo sh setup.sh
       - run: sh copy.sh ${{matrix.url}} ${{matrix.dir}}

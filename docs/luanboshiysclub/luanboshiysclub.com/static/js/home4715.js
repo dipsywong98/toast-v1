@@ -347,7 +347,7 @@ function showFlash(host, flashvar, obj, shareid) {
 
 function userapp_open() {
 	var x = new Ajax();
-	x.get('memberb5e7.php?mod=spacecp&amp;ac=common&amp;op=getuserapp&amp;inajax=1', function(s){
+	x.get('home5310.html?mod=spacecp&amp;ac=common&amp;op=getuserapp&amp;inajax=1', function(s){
 		$('my_userapp').innerHTML = s;
 		$('a_app_more').className = 'fold';
 		$('a_app_more').innerHTML = '收起';
@@ -359,7 +359,7 @@ function userapp_open() {
 
 function userapp_close() {
 	var x = new Ajax();
-	x.get('memberb5e7.php?mod=spacecp&amp;ac=common&amp;op=getuserapp&amp;subop=off&amp;inajax=1', function(s){
+	x.get('homec7ae.html?mod=spacecp&amp;ac=common&amp;op=getuserapp&amp;subop=off&amp;inajax=1', function(s){
 		$('my_userapp').innerHTML = s;
 		$('a_app_more').className = 'unfold';
 		$('a_app_more').innerHTML = '展开';
@@ -585,7 +585,7 @@ function wall_add(id) {
 	newdl.id = 'comment_'+id+'_li';
 	newdl.className = 'bbda cl';
 	var x = new Ajax();
-	x.get('home1815.php?mod=misc&amp;ac=ajax&amp;op=comment&amp;inajax=1&amp;cid='+id, function(s){
+	x.get('home1815.html?mod=misc&amp;ac=ajax&amp;op=comment&amp;inajax=1&amp;cid='+id, function(s){
 		newdl.innerHTML = s;
 	});
 	obj.insertBefore(newdl, obj.firstChild);
@@ -600,7 +600,7 @@ function share_add(sid) {
 	var newli = document.createElement("li");
 	newli.id = 'share_' + sid + '_li';
 	var x = new Ajax();
-	x.get('homea068.php?mod=misc&amp;ac=ajax&amp;op=share&amp;inajax=1&amp;sid='+sid, function(s){
+	x.get('homea068.html?mod=misc&amp;ac=ajax&amp;op=share&amp;inajax=1&amp;sid='+sid, function(s){
 		newli.innerHTML = s;
 	});
 	obj.insertBefore(newli, obj.firstChild);
@@ -615,7 +615,7 @@ function comment_add(id) {
 	newdl.id = 'comment_'+id+'_li';
 	newdl.className = 'bbda cl';
 	var x = new Ajax();
-	x.get('home1815.php?mod=misc&amp;ac=ajax&amp;op=comment&amp;inajax=1&amp;cid='+id, function(s){
+	x.get('home1815.html?mod=misc&amp;ac=ajax&amp;op=comment&amp;inajax=1&amp;cid='+id, function(s){
 		newdl.innerHTML = s;
 	});
 	if($('comment_prepend')){
@@ -640,7 +640,7 @@ function comment_add(id) {
 function comment_edit(cid) {
 	var obj = $('comment_'+ cid +'_li');
 	var x = new Ajax();
-	x.get('home1815.php?mod=misc&amp;ac=ajax&amp;op=comment&amp;inajax=1&amp;cid='+ cid, function(s){
+	x.get('home1815.html?mod=misc&amp;ac=ajax&amp;op=comment&amp;inajax=1&amp;cid='+ cid, function(s){
 		obj.innerHTML = s;
 		var elems = selector('dd[class~=magicflicker]');
 		for(var i=0; i<elems.length; i++){
@@ -682,7 +682,7 @@ function friend_changegroup(id, result) {
 function friend_changegroupname(group) {
 	var obj = $('friend_groupname_'+ group);
 	var x = new Ajax();
-	x.get('homed035.php?mod=misc&amp;ac=ajax&amp;op=getfriendname&amp;inajax=1&amp;group='+group, function(s){
+	x.get('homed035.html?mod=misc&amp;ac=ajax&amp;op=getfriendname&amp;inajax=1&amp;group='+group, function(s){
 		obj.innerHTML = s;
 	});
 }
@@ -867,7 +867,7 @@ function feedcomment_add(cid, feedid) {
 	newdl.id = 'comment_'+cid+'_li';
 	newdl.className = 'bbda cl';
 	var x = new Ajax();
-	x.get('home1815.php?mod=misc&amp;ac=ajax&amp;op=comment&amp;inajax=1&amp;cid='+cid, function(s){
+	x.get('home1815.html?mod=misc&amp;ac=ajax&amp;op=comment&amp;inajax=1&amp;cid='+cid, function(s){
 		newdl.innerHTML = s;
 	});
 	obj.appendChild(newdl);
@@ -1018,7 +1018,7 @@ function passwordShow(value) {
 function getgroup(gid) {
 	if(gid) {
 		var x = new Ajax();
-		x.get('memberb5e7.php?mod=spacecp&amp;ac=privacy&amp;inajax=1&amp;op=getgroup&amp;gid='+gid, function(s){
+		x.get('home67ae.html?mod=spacecp&amp;ac=privacy&amp;inajax=1&amp;op=getgroup&amp;gid='+gid, function(s){
 			s = s + ' ';
 			$('target_names').innerHTML += s;
 		});

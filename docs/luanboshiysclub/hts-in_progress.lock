@@ -1,7 +1,7 @@
-Mirror in progress since Tue, 05 Dec 2023 12:59:36 .. please wait!
-httrack http://luanboshiysclub.com/ -O docs/luanboshiysclub -v -s0 -#p -#L1000000000000 
+Mirror in progress since Wed, 06 Dec 2023 12:59:59 .. please wait!
+httrack http://luanboshiysclub.com/ -O docs/luanboshiysclub -v -s0 -#p -#L1000000000000 http://luanboshiysclub.com/ -O docs/luanboshiysclub -v -s0 -#p -#L1000000000000 -iC1 
 To pause the engine: create an empty file named 'hts-stop.lock'
-PID=1945
+PID=3487
 UID=1001
 GID=1001
-START=1701781176
+START=1701867599

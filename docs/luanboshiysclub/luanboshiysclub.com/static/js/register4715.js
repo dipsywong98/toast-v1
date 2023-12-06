@@ -338,7 +338,7 @@ function checkemail(id) {
 	}
 	var x = new Ajax();
 	$('tip_' + id).parentNode.className = $('tip_' + id).parentNode.className.replace(/ p_right/, '');
-	x.get('forumb264.html?mod=ajax&amp;inajax=yes&amp;infloat=register&amp;handlekey=register&amp;ajaxmenu=1&amp;action=checkemail&amp;email=' + email, function(s) {
+	x.get('forumb264.php?mod=ajax&amp;inajax=yes&amp;infloat=register&amp;handlekey=register&amp;ajaxmenu=1&amp;action=checkemail&amp;email=' + email, function(s) {
 		errormessage(id, s);
 	});
 }

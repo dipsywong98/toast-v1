@@ -234,7 +234,7 @@ function fastpostvalidate(theform, noajaxpost) {
 }
 
 function updatefastpostattach(aid, url) {
-	ajaxget('forum30af.html?mod=ajax&amp;action=attachlist&amp;posttime=' + $('posttime').value + (!fid ? '' : '&fid=' + fid), 'attachlist');
+	ajaxget('forum30af.php?mod=ajax&amp;action=attachlist&amp;posttime=' + $('posttime').value + (!fid ? '' : '&fid=' + fid), 'attachlist');
 	$('attach_tblheader').style.display = '';
 }
 

@@ -6,7 +6,7 @@
     <description>Latest 20 threads of 申请论坛改名发这里</description>
     <copyright>Copyright(C) 风水与养生，怀孕保健，育儿保健，月子保健</copyright>
     <generator>Discuz! Board by Comsenz Inc.</generator>
-    <lastBuildDate>Wed, 06 Dec 2023 19:20:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Dec 2023 02:13:11 +0000</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>http://luanboshiysclub.com/static/image/common/logo_88_31.gif</url>

@@ -6,13 +6,26 @@
     <description>Latest 20 threads of 育儿</description>
     <copyright>Copyright(C) 风水与养生，怀孕保健，育儿保健，月子保健</copyright>
     <generator>Discuz! Board by Comsenz Inc.</generator>
-    <lastBuildDate>Fri, 08 Dec 2023 07:11:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Dec 2023 13:18:20 +0000</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>http://luanboshiysclub.com/static/image/common/logo_88_31.gif</url>
       <title>风水与养生，怀孕保健，育儿保健，月子保健</title>
       <link>http://luanboshiysclub.com/</link>
     </image>
+    <item>
+      <title>支原体肺炎</title>
+      <link>http://luanboshiysclub.com/forum.php?mod=viewthread&amp;tid=81343</link>
+      <description><![CDATA[10:01:42
+向老师反馈，4岁孩子流感合并支原体肺炎，咳嗽，白天还在咳嗽，晚上关元贴了兑排，一声没咳。呸，呸，呸！
+
+用兑排贴关元穴治支原体肺炎，这是玉树同学提供的方法。
+
+大家讨论支原体肺炎的时候，有人说她多年前得过，当时找的一个老中医治疗。那个老中医说 ...]]></description>
+      <category>育儿</category>
+      <author>天灵宗宗主</author>
+      <pubDate>Fri, 08 Dec 2023 11:02:14 +0000</pubDate>
+    </item>
     <item>
       <title>现在如何购买养生的各种贴</title>
       <link>http://luanboshiysclub.com/forum.php?mod=viewthread&amp;tid=81335</link>
@@ -211,15 +224,6 @@
       <category>育儿</category>
       <author>天灵宗宗主</author>
       <pubDate>Wed, 21 Oct 2020 23:51:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>淋雨引起荨麻疹</title>
-      <link>http://luanboshiysclub.com/forum.php?mod=viewthread&amp;tid=81191</link>
-      <description><![CDATA[有人反馈：
-反馈一下，那天咨询了宗主，小坎女淋雨引起的寻麻症，两通谷、两前谷贴关元贴效果很好。第二天本上就控制住了。]]></description>
-      <category>育儿</category>
-      <author>天灵宗宗主</author>
-      <pubDate>Wed, 21 Oct 2020 11:05:41 +0000</pubDate>
     </item>
   </channel>
 </rss>

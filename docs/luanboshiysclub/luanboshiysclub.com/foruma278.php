@@ -6,7 +6,7 @@
     <description>Latest 20 threads of 天灵宗易经网络课堂</description>
     <copyright>Copyright(C) 风水与养生，怀孕保健，育儿保健，月子保健</copyright>
     <generator>Discuz! Board by Comsenz Inc.</generator>
-    <lastBuildDate>Fri, 08 Dec 2023 07:07:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Dec 2023 13:14:24 +0000</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>http://luanboshiysclub.com/static/image/common/logo_88_31.gif</url>

@@ -6,7 +6,7 @@
     <description>Latest 20 threads of 论坛公告通知</description>
     <copyright>Copyright(C) 风水与养生，怀孕保健，育儿保健，月子保健</copyright>
     <generator>Discuz! Board by Comsenz Inc.</generator>
-    <lastBuildDate>Fri, 08 Dec 2023 06:59:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Dec 2023 13:06:22 +0000</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>http://luanboshiysclub.com/static/image/common/logo_88_31.gif</url>

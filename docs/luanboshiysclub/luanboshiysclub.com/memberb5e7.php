@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="gbk"?>
 <root><![CDATA[
-<div id="main_messaqge_L6xWc">
-<div id="layer_login_L6xWc">
+<div id="main_messaqge_LTL2x">
+<div id="layer_login_LTL2x">
 <h3 class="flb">
-<em id="returnmessage_L6xWc">
+<em id="returnmessage_LTL2x">
 您需要先登录才能继续本操作</em>
 <span><a href="javascript:;" class="flbc" onclick="hideWindow('', 0, 1);" title="关闭">关闭</a></span>
 </h3>
-<form method="post" autocomplete="off" name="login" id="loginform_L6xWc" class="cl" onsubmit="pwmd5('password3_L6xWc');pwdclear = 1;ajaxpost('loginform_L6xWc', 'returnmessage_L6xWc', 'returnmessage_L6xWc', 'onerror');return false;" action="member.php?mod=logging&amp;action=login&amp;loginsubmit=yes&amp;loginhash=L6xWc">
+<form method="post" autocomplete="off" name="login" id="loginform_LTL2x" class="cl" onsubmit="pwmd5('password3_LTL2x');pwdclear = 1;ajaxpost('loginform_LTL2x', 'returnmessage_LTL2x', 'returnmessage_LTL2x', 'onerror');return false;" action="member.php?mod=logging&amp;action=login&amp;loginsubmit=yes&amp;loginhash=LTL2x">
 <div class="c cl">
 <input type="hidden" name="formhash" value="e52f8daa" />
 <input type="hidden" name="referer" value="http://luanboshiysclub.com/static/js/home.js?7zj" />
@@ -16,14 +16,14 @@
 <tr>
 <th>
 <span class="login_slct">
-<select name="loginfield" style="float: left;" width="45" id="loginfield_L6xWc">
+<select name="loginfield" style="float: left;" width="45" id="loginfield_LTL2x">
 <option value="username">用户名</option>
 <option value="uid">UID</option>
 <option value="email">Email</option>
 </select>
 </span>
 </th>
-<td><input type="text" name="username" id="username_L6xWc" autocomplete="off" size="30" class="px p_fre" tabindex="1" value="" /></td>
+<td><input type="text" name="username" id="username_LTL2x" autocomplete="off" size="30" class="px p_fre" tabindex="1" value="" /></td>
 <td class="tipcol"><a href="member.php?mod=registerr">请用中文注册</a></td>
 </tr>
 </table>
@@ -31,9 +31,9 @@
 <div class="rfm">
 <table>
 <tr>
-<th><label for="password3_L6xWc">密码:</label></th>
-<td><input type="password" id="password3_L6xWc" name="password" onfocus="clearpwd()" size="30" class="px p_fre" tabindex="1" /></td>
-<td class="tipcol"><a href="javascript:;" onclick="display('layer_login_L6xWc');display('layer_lostpw_L6xWc');" title="找回密码">找回密码</a></td>
+<th><label for="password3_LTL2x">密码:</label></th>
+<td><input type="password" id="password3_LTL2x" name="password" onfocus="clearpwd()" size="30" class="px p_fre" tabindex="1" /></td>
+<td class="tipcol"><a href="javascript:;" onclick="display('layer_login_LTL2x');display('layer_lostpw_LTL2x');" title="找回密码">找回密码</a></td>
 </tr>
 </table>
 </div>
@@ -41,7 +41,7 @@
 <table>
 <tr>
 <th>安全提问:</th>
-<td><select id="loginquestionid_L6xWc" width="213" name="questionid" onchange="if($('loginquestionid_L6xWc').value > 0) {$('loginanswer_row_L6xWc').style.display='';} else {$('loginanswer_row_L6xWc').style.display='none';}">
+<td><select id="loginquestionid_LTL2x" width="213" name="questionid" onchange="if($('loginquestionid_LTL2x').value > 0) {$('loginanswer_row_LTL2x').style.display='';} else {$('loginanswer_row_LTL2x').style.display='none';}">
 <option value="0">安全提问(未设置请忽略)</option>
 <option value="1">母亲的名字</option>
 <option value="2">爷爷的名字</option>
@@ -54,22 +54,22 @@
 </tr>
 </table>
 </div>
-<div class="rfm" id="loginanswer_row_L6xWc"  style="display:none">
+<div class="rfm" id="loginanswer_row_LTL2x"  style="display:none">
 <table>
 <tr>
 <th>答案:</th>
-<td><input type="text" name="answer" id="loginanswer_L6xWc" autocomplete="off" size="30" class="px p_fre" tabindex="1" /></td>
+<td><input type="text" name="answer" id="loginanswer_LTL2x" autocomplete="off" size="30" class="px p_fre" tabindex="1" /></td>
 </tr>
 </table>
 </div>
 
-<input name="sechash" type="hidden" value="SA8pbZZ70" />
+<input name="sechash" type="hidden" value="SAlbW9A90" />
 
-<div class="rfm"><table><tr><th>验证码: </th><td><input name="seccodeverify" id="seccodeverify_SA8pbZZ70" type="text" autocomplete="off" style="ime-mode:disabled;width:100px" class="txt px vm" onblur="checksec('code', 'SA8pbZZ70')" tabindex="1" />
-<a href="javascript:;" onclick="updateseccode('SA8pbZZ70');doane(event);" class="xi2">换一个</a>
-<span id="checkseccodeverify_SA8pbZZ70"><img src="static/image/common/none.gif" width="16" height="16" class="vm" /></span>
-<br /><span id="seccode_SA8pbZZ70"></span>
-<script type="text/javascript" reload="1">updateseccode('SA8pbZZ70');</script>
+<div class="rfm"><table><tr><th>验证码: </th><td><input name="seccodeverify" id="seccodeverify_SAlbW9A90" type="text" autocomplete="off" style="ime-mode:disabled;width:100px" class="txt px vm" onblur="checksec('code', 'SAlbW9A90')" tabindex="1" />
+<a href="javascript:;" onclick="updateseccode('SAlbW9A90');doane(event);" class="xi2">换一个</a>
+<span id="checkseccodeverify_SAlbW9A90"><img src="static/image/common/none.gif" width="16" height="16" class="vm" /></span>
+<br /><span id="seccode_SAlbW9A90"></span>
+<script type="text/javascript" reload="1">updateseccode('SAlbW9A90');</script>
 </td></tr></table></div>
 
 
@@ -78,7 +78,7 @@
 <table>
 <tr>
 <th></th>
-<td><label for="cookietime_L6xWc"><input type="checkbox" class="pc" name="cookietime" id="cookietime_L6xWc" tabindex="1" value="2592000"  />自动登录</label></td>
+<td><label for="cookietime_LTL2x"><input type="checkbox" class="pc" name="cookietime" id="cookietime_LTL2x" tabindex="1" value="2592000"  />自动登录</label></td>
 </tr>
 </table>
 </div>
@@ -99,12 +99,12 @@
 </div>
 </form>
 </div>
-<div id="layer_lostpw_L6xWc" style="display: none;">
+<div id="layer_lostpw_LTL2x" style="display: none;">
 <h3 class="flb">
-<em id="returnmessage3_L6xWc">找回密码</em>
+<em id="returnmessage3_LTL2x">找回密码</em>
 <span><a href="javascript:;" class="flbc" onclick="hideWindow('login')" title="关闭">关闭</a></span>
 </h3>
-<form method="post" autocomplete="off" id="lostpwform_L6xWc" class="cl" onsubmit="ajaxpost('lostpwform_L6xWc', 'returnmessage3_L6xWc', 'returnmessage3_L6xWc', 'onerror');return false;" action="member.php?mod=lostpasswd&amp;lostpwsubmit=yes&amp;infloat=yes">
+<form method="post" autocomplete="off" id="lostpwform_LTL2x" class="cl" onsubmit="ajaxpost('lostpwform_LTL2x', 'returnmessage3_LTL2x', 'returnmessage3_LTL2x', 'onerror');return false;" action="member.php?mod=lostpasswd&amp;lostpwsubmit=yes&amp;infloat=yes">
 <div class="c cl">
 <input type="hidden" name="formhash" value="e52f8daa" />
 <input type="hidden" name="handlekey" value="lostpwform" />
@@ -138,14 +138,14 @@
 </div>
 </div>
 
-<div id="layer_message_L6xWc" style="display: none;">
-<h3 class="flb" id="layer_header_L6xWc">
+<div id="layer_message_LTL2x" style="display: none;">
+<h3 class="flb" id="layer_header_LTL2x">
 <em>用户登录</em>
 <span><a href="javascript:;" class="flbc" onclick="hideWindow('login')" title="关闭">关闭</a></span>
 </h3>
 <div class="c"><div class="alert_right">
-<div id="messageleft_L6xWc"></div>
-<p class="alert_btnleft" id="messageright_L6xWc"></p>
+<div id="messageleft_LTL2x"></div>
+<p class="alert_btnleft" id="messageright_LTL2x"></p>
 </div>
 </div>
 
@@ -153,17 +153,17 @@
 var pwdclear = 0;
 function initinput_login() {
 document.body.focus();
-if($('loginform_L6xWc')) {
-$('loginform_L6xWc').username.focus();
+if($('loginform_LTL2x')) {
+$('loginform_LTL2x').username.focus();
 }
-simulateSelect('loginfield_L6xWc');
+simulateSelect('loginfield_LTL2x');
 }
 initinput_login();
-showPrompt('custominfo_login_L6xWc', 'mouseover', '欢迎回来', 3000);
+showPrompt('custominfo_login_LTL2x', 'mouseover', '欢迎回来', 3000);
 
 function clearpwd() {
 if(pwdclear) {
-$('password3_L6xWc').value = '';
+$('password3_LTL2x').value = '';
 }
 pwdclear = 0;
 }

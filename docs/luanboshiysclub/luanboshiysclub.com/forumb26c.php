@@ -6,7 +6,7 @@
     <description>查看新帖</description>
     <copyright>Copyright(C) 风水与养生，怀孕保健，育儿保健，月子保健</copyright>
     <generator>Discuz! Board by Comsenz Inc.</generator>
-    <lastBuildDate>Sat, 09 Dec 2023 13:57:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Dec 2023 19:37:35 +0000</lastBuildDate>
     <ttl>30</ttl>
     <image>
       <url>http://luanboshiysclub.com/static/image/common/logo_88_31.gif</url>

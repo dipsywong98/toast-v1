@@ -6,7 +6,7 @@
     <description>Latest 20 threads of 月经以及女性问题</description>
     <copyright>Copyright(C) 风水与养生，怀孕保健，育儿保健，月子保健</copyright>
     <generator>Discuz! Board by Comsenz Inc.</generator>
-    <lastBuildDate>Fri, 08 Dec 2023 19:51:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Dec 2023 02:35:44 +0000</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>http://luanboshiysclub.com/static/image/common/logo_88_31.gif</url>
@@ -38,6 +38,15 @@
       <category>月经以及女性问题</category>
       <author>云淡风轻乙丑</author>
       <pubDate>Fri, 21 Jul 2023 02:40:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>女性妇科问题集锦（月经、乳腺等）</title>
+      <link>http://luanboshiysclub.com/forum.php?mod=viewthread&amp;tid=81324</link>
+      <description><![CDATA[8:20:44
+顺带说一句，昨天龙神贴中脘，右侧乳房痛好了，呸呸呸]]></description>
+      <category>月经以及女性问题</category>
+      <author>天灵宗宗主</author>
+      <pubDate>Thu, 20 Apr 2023 00:39:44 +0000</pubDate>
     </item>
   </channel>
 </rss>

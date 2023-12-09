@@ -6,13 +6,26 @@
     <description>Latest 20 threads of 天灵宗易经网络课堂</description>
     <copyright>Copyright(C) 风水与养生，怀孕保健，育儿保健，月子保健</copyright>
     <generator>Discuz! Board by Comsenz Inc.</generator>
-    <lastBuildDate>Sat, 09 Dec 2023 01:56:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Dec 2023 07:07:19 +0000</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>http://luanboshiysclub.com/static/image/common/logo_88_31.gif</url>
       <title>风水与养生，怀孕保健，育儿保健，月子保健</title>
       <link>http://luanboshiysclub.com/</link>
     </image>
+    <item>
+      <title>腰酸</title>
+      <link>http://luanboshiysclub.com/forum.php?mod=viewthread&amp;tid=81344</link>
+      <description><![CDATA[昨天（2023年12月8日），有人问我，腰酸怎么治。
+我说，参考腰痛的治法。
+今天，就看到他的反馈：“10:14:24
+昨天用桑椹贴了天泉穴，做了很奇怪的梦，梦到一个小孩尿尿非常高非常想远像泉水，都喷到旁边的人，我的舌头一直找水要冲，今天腰不酸了。呸呸呸”
+
+效果挺 ...]]></description>
+      <category>天灵宗易经网络课堂</category>
+      <author>天灵宗宗主</author>
+      <pubDate>Sat, 09 Dec 2023 02:42:18 +0000</pubDate>
+    </item>
     <item>
       <title>督脉可调：流清涕，鼻塞，无力，没味口，脚凉</title>
       <link>http://luanboshiysclub.com/forum.php?mod=viewthread&amp;tid=81340</link>
@@ -219,18 +232,6 @@
       <category>天灵宗易经网络课堂</category>
       <author>天灵宗宗主</author>
       <pubDate>Sat, 04 Jun 2022 04:41:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>贴中渚穴的记录和发现</title>
-      <link>http://luanboshiysclub.com/forum.php?mod=viewthread&amp;tid=81281</link>
-      <description><![CDATA[贴中渚穴的反馈：巽贴贴两中渚，大陵贴离排，神门养心贴，太渊养肺贴。四分之一大乾贴脑门。以上贴都是睡觉前贴，第二天早上起来撕掉。因为要做家务，洗衣做饭。
-
-下面是12月12日的记录：
-第一周，没反应。
-第二周尿频严重：尤其夜尿多，在子丑二个时段集中。尿了站 ...]]></description>
-      <category>天灵宗易经网络课堂</category>
-      <author>山上松</author>
-      <pubDate>Sat, 18 Dec 2021 12:26:50 +0000</pubDate>
     </item>
   </channel>
 </rss>

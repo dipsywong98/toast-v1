@@ -14,7 +14,8 @@ check_in() {
   git add $path
   git commit -m "[bot] Updated $url"
   git rebase
-  git push
+  git reset $(git commit-tree HEAD^{tree} -m "[bot] Updated $url")
+  git push -f
   echo "checked in new changes"
 }
 
